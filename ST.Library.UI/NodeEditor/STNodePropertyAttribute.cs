@@ -141,7 +141,7 @@ namespace ST.Library.UI.NodeEditor
                     for (int i = 0; i < strs.Length; i++) arr[i] = float.Parse(strs[i].Trim());
                     return arr;
                 }
-                if (t_1 == m_t_int) {
+                if (t_1 == m_t_double) {
                     double[] arr = new double[strs.Length];
                     for (int i = 0; i < strs.Length; i++) arr[i] = double.Parse(strs[i].Trim());
                     return arr;
